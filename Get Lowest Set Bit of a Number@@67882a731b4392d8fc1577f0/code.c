@@ -3,7 +3,7 @@ int main() {
     int a,b,c;
     scanf("%d ",&a);
 b=a & -a;
-while
+while(b>>1);
 b>>=1;
 c++;
 printf("%d",c);
