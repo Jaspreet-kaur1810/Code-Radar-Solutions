@@ -3,9 +3,7 @@ int main() {
     int a,b,c;
     scanf("%d ",&a);
 b=a & -a;
-while(b>>1);
-b>>=1;
-c++;
+c=(int)(log2(b));
 printf("%d",c);
     return 0;
 }
