@@ -10,9 +10,9 @@ int main() {
         printf("Not Divisible");
     }else if(a%3==0 && a%5!=0)
     {
-        printf("Divisible by 3")
+        printf("Divisible by 3");
         }else {
-            printf("Divisivble by 5")
+            printf("Divisivble by 5");
         }
     return 0;
 }
