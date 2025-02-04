@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int t,s;
-    scanf("%d",&t);
+    scanf("%d %d",&t,&s);
     if(s<t){
         printf("Profit");
     }else if(t<s){
