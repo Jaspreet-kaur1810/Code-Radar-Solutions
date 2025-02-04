@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int t;
+    int t,s;
     scanf("%d",&t);
-    if(t>0){
+    if(s<t){
         printf("Profit");
-    }else if(t<0){
+    }else if(t<s){
         printf("Loss");
     }else{
         printf("No Profit/No Loss");
