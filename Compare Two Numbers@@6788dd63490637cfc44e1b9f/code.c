@@ -7,7 +7,7 @@ int main() {
     }else if (a==b){
         printf("Equal");
     }else {
-        printf("No");
+        printf("Second");
     }
     return 0;
 }
