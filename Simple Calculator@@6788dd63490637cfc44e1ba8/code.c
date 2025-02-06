@@ -14,10 +14,15 @@ int main() {
         printf("%d",b*c);
         break;
         case'/':
-        printf("%d",b/c);
+        if(c!=0){
+            printf("%d",b/c);
+        }else{
+            printf("Error:Division by zero");
+        }
         break;
         default:
         printf("Error");
+        break;
     }
     return 0;
 }
