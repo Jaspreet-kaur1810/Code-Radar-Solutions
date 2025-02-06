@@ -2,9 +2,7 @@
 int main() {
     int b,c;
     char a;
-    if(scanf("%c %d %d",&a,&b,&c)!=3){
-        printf("Error");
-    }
+    scanf("%c %d %d",&a,&b,&c);
     switch(a){
         case'+':
         printf("%d",b+c);
