@@ -2,7 +2,7 @@
 int main() {
     int b,c;
     char a;
-    if(scanf("%c %d %d",&a,&b,&c!=3){
+    if(scanf("%c %d %d",&a,&b,&c)!=3){
         printf("Error");
     }
     switch(a){
