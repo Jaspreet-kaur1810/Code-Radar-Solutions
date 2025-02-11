@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include<ctype.h>
-int main() {
+
+void main() {
     char light;
     scanf("%c",&light);
     switch(light){
@@ -17,6 +17,4 @@ int main() {
         printf("Invalid input");
         break;
     }
-
-    return 0;
 }
