@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char light;
-    scanf("%c",&light);
+    scanf("%s",&light);
     switch(light){
         case 'R':
         printf("Stop");
@@ -12,10 +12,9 @@ int main() {
         case 'Y':
         printf("Slow Down");
         break;
-        default;
+        default:
         printf("Invalid input");
         break;
-
     }
 
     return 0;
