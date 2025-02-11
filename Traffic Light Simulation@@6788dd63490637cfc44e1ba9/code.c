@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char light;
-    scanf("%s",&light);
+    scanf("%c",&light);
     switch(light){
         case 'R':
         printf("Stop");
