@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int i,n;
     scanf("%d",&n);
-    while(i<n);
-    printf(i);
-    i++;
+    for(i=1;i<n;i++)
+    printf("%d",i);
+    
 }
