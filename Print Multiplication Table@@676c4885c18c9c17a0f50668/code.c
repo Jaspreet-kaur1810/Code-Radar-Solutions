@@ -4,7 +4,7 @@ int main() {
     int i,a;
     scanf("%d",&a);
     for (i = 1; i <= a; i++) {
-        printf("a * %d = %d\n", i, 2 * i);
+        printf("a * %d = %d\n", i, a * i);
     }
 
     return 0;
