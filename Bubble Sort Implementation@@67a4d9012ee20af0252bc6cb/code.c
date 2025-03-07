@@ -1,5 +1,4 @@
 #include<stdio.h>
-{
 int bubbleSort(arr,n);
 int printArray(arr,n);
 int arr,n;
@@ -19,5 +18,4 @@ int main()
     bubbleSort(arr,n);
     printArray(arr,n);
     return 0;
-}
 }
